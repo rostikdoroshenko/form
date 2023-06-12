@@ -1,0 +1,30 @@
+.container {
+  &-title {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+
+    &_hobbies {
+      &-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+
+        &--title {
+          align-self: center;
+        }
+      }
+
+      &-item {
+        display: flex;
+      }
+    }
+  }
+}
